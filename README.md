@@ -16,4 +16,10 @@
 
 > **第三章：决策树**
 
-- 决策树简介：
+- 决策树简介：“决策树分类器就像带有终止块的流程图，终止块表示分类结果。开始分类前，我们首先测量数据集中特征的不一致性，也就是“熵”，然后寻找最优的分类方案划分数据集，直到数据集中所有的数据集属于同一分类。”
+
+- 缺点：决策树可能会产生过多的数据集划分，从而产生过度匹配数据集的问题。我们可以通过裁剪决策树，合并相邻的无法产生大量信息增益的叶节点，消除匹配过度问题。
+
+- [决策树/数据集](https://github.com/XiangyuDing/Machine-Learning-Projects/tree/master/Ch03_Decision%20Tree)
+
+- [决策树常见错误及解决办法](https://github.com/XiangyuDing/Machine-Learning-Projects/issues/2)
