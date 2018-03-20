@@ -19,7 +19,7 @@
 
 - KNN具体迭代过程可自行Google或参阅：https://www.cnblogs.com/ybjourney/p/4702562.html
 
-- [KNN分类器/数据集](https://github.com/XiangyuDing/Machine-Learning-Projects/tree/master/KNN)
+- [KNN分类器/数据集：约会对象/28像素数字](https://github.com/XiangyuDing/Machine-Learning-Projects/tree/master/KNN)
 
 - [KNN常见错误及解决办法](https://github.com/XiangyuDing/Machine-Learning-Projects/issues/1)
 
@@ -37,10 +37,26 @@
 
 - 更多具体公式可自行Google或参阅：http://people.revoledu.com/kardi/tutorial/DecisionTree/how-to-measure-impurity.htm
 
-- [ID3决策树/数据集](https://github.com/XiangyuDing/Machine-Learning-Projects/tree/master/Ch03_Decision%20Tree)
+- [ID3决策树/数据集：戴哪种隐形眼镜？](https://github.com/XiangyuDing/Machine-Learning-Projects/tree/master/Ch03_Decision%20Tree)
 
 - [决策树常见错误及解决办法](https://github.com/XiangyuDing/Machine-Learning-Projects/issues/2)
 
 ---
 
 > **第四章：朴素贝叶斯（Naive Bayes）**
+
+- 朴素贝叶斯简介：“对于分类而言，使用概率有时要比使用硬规则更为有效。贝叶斯概率及贝叶斯准则提供了一种利用已知值来估计未知概率的有效方法。”
+
+- 优点：
+1. 发源于古典数学理论，有坚实的数学基础，且分类效率稳定。
+2. 算法比较简单，对缺失数据也不敏感。
+
+- 缺点：
+1. 朴素贝叶斯的假设过于简单，对于文本分类而言，每个单词的出现被假设为独立事件，有过高中程度的语文/英语水平的人都应该知道，这种假设并不成立，单词是相互联系的，如bacon更有可能和delicious连用，而不和garbage连用。
+2. 就文本分类问题而言，一个好的词袋模型比起贝叶斯分类器本身更加重要（一个好的先验概率，数据集比分类器更重要）。
+
+- 贝叶斯分类器的原理可自行Google或参阅：http://www.cnblogs.com/pinard/p/6069267.html
+
+- [朴素贝叶斯/数据集：垃圾邮件](https://github.com/XiangyuDing/Machine-Learning-Projects/tree/master/Ch04_Naive%20Bayes)
+
+- [朴素贝叶斯常见错误及解决办法](https://github.com/XiangyuDing/Machine-Learning-Projects/issues/3)
