@@ -19,7 +19,7 @@
 
 - KNN具体迭代过程可自行Google或参阅：https://www.cnblogs.com/ybjourney/p/4702562.html
 
-- [KNN分类器/数据集：约会对象/28像素数字](https://github.com/XiangyuDing/Machine-Learning-Projects/tree/master/KNN)
+- [KNN分类器/数据集：约会对象/28像素数字](https://github.com/XiangyuDing/Machine-Learning-Projects/tree/master/Ch02_KNN)
 
 - [KNN常见错误及解决办法](https://github.com/XiangyuDing/Machine-Learning-Projects/issues/1)
 
