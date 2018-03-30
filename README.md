@@ -85,3 +85,13 @@
 - [逻辑回归/数据集：疝气马](https://github.com/XiangyuDing/Machine-Learning-Projects/tree/master/Ch05_Logistic)
 
 - [逻辑回归常见错误及解决办法](https://github.com/XiangyuDing/Machine-Learning-Projects/issues/4)
+
+> **第六章：支持向量机（Support Vector Machine））**
+
+- 支持向量机简介：“”
+
+- 优点：
+
+- 缺点：
+
+- 最大间隔分类器：一个2维数据集通过一条1维直线分开，一个3维数据集通过一个2维平面分开，我们称之为分隔超平面（separating hyperplane），也就是决策边界。我们通过这种方式构建分类器，当数据点离决策边界越远，那么这个分类算法的预测结果就越可信。
